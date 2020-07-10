@@ -1,6 +1,16 @@
 Dear CEO, 
 
-This email will cover my basic analysis. 
+This email will cover my basic analysis of national retail sales data for our portfolio company.
+
+Monthly aggregations of gross revenue data across all locations show spikes of approximately $2 billion every third month. The profit margin %'s do not show as obvious of a cycle, however.
+
+To perform a fair comparison of profit margin %'s between owned and rented locations, I imputed "Rental cost" data for owned locations. The values were predicted by a Linear Regression model that took in data for "Gross revenue", "Fixed cost", "Rental cost", and "Number of products". The model was trained on "Rental cost" data from rented locations.
+
+Finally, I attempted to understand the main driver of a high profit margin %, and I found a very strong correlation between the "Number of products" variable and "Profit Margin %". I included cost of living information for each state in this analysis. I suspect a higher variety of items at a store increases chances for upselling, and the additional items stocked at stores with a larger-than-average assortment of items may have higher individual profit margins.
+
+I would like to improve the amount of data our pipelines are allowing us to ingest and analyze for the upcoming year. This may allow me to analyze profit margins at a individual product level.
+
+Please let me know if I can provide any additional details on this analysis. 
 
 Best regards, 
 
